@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(0, 0, 0);
+    max-width: 100%;
+}
+.head{
+    background-color: rgb(48, 17, 224);
+    max-width: 450px;
+    margin: 40px auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.navsearch{
+        padding: 5px;
+        width:90% ;
+}
+ul{
+    padding: 10px ;
+    margin: 10px;
+    overflow: hidden;
+}
+li{
+    float: left;
+    margin: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+a{
+
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li a:hover{
+    background-color: rgb(0, 128, 187);
+}
+
+li a:hover:not(.active){
+    background-color: rgb(43, 255, 0);
+}
+li a:hover:active{
+    background-color: rgb(81, 146, 27);
+}
+.fb{
+    width: 450px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 40px auto;
+    margin-top: -10px;
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+input{
+    align-items: center;
+    padding: 10px;
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 187);
+    margin-bottom: 10px;
+}
+.password{
+    margin: 20px auto;
+    margin-bottom: -11px;
+}
+.email{
+    margin: 20px auto;
+    margin-bottom: -20px;
+}
+.login{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
+    margin: 1px auto;
+    border-radius: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+a{
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    margin-top: -32px;
+    font-size: 17px;
+}
+.new-acct{
+    color: white;
+    background-color: rgb(7, 255, 7);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -20px;
+    width: 150px;
+}
+hr{
+    border: 1px dotted black;
+    outline: none;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.new-acct:hover{
+    background-color: blue;
+}
+.login:hover{
+    background-color: rgb(0, 255, 55);
+    color: rgb(255, 255, 255);
+}
+input:hover{
+    border: 2px solid blue;
+}
+@media (max-width: 600px){
+    .login-form{
+        margin: 20px auto;
+        padding: 15px;
+    }
+    }
+a:hover{
+    color: green;
+}
